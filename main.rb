@@ -1,4 +1,4 @@
-require 'answers'
+
 
 def popcorn
   puts "I am an eight ball, yo."
@@ -6,7 +6,7 @@ def popcorn
   response = gets.strip
 end
 
-answers = [
+@answers = [
   "I'll think about it... hmmmm.  I dunno. but you're a jibroni.",
   "You should probably stop eating tide pods.",
   "Thats an affirmative.",
@@ -14,5 +14,17 @@ answers = [
   "Don't count on it!",
   "You would be better off going to medical school!",
   "You betcha.",
-  "My sources say NO, but they also said Bernie would win."
+  "My sources say NO, but they also said Hilary would win.",
+
 ]
+
+
+
+def answer
+  puts @answers.sample
+end
+
+popcorn
+answer
+#when running into merge conflicts resolve them... then  git add . ///// then git --continue
+#then push changes.
