@@ -14,5 +14,5 @@ answers = [
   "Don't count on it!",
   "You would be better off going to medical school!",
   "You betcha.",
-  "My sources say NO, but they also said Hilary would win."
+  "My sources say NO, but they also said Bernie would win."
 ]
