@@ -1,6 +1,6 @@
 require 'answers'
 
-def menu
+def main_menu
   puts "I am an eight ball, yo."
   puts "Please enter your question..."
   response = gets.strip
