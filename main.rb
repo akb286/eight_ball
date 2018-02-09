@@ -1,6 +1,6 @@
 require 'answers'
 
-def burritos
+def popcorn
   puts "I am an eight ball, yo."
   puts "Please enter your question..."
   response = gets.strip
